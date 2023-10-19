@@ -1,0 +1,110 @@
+.Loginpage{
+  margin: 100px 0px;
+  height:100vh
+}
+.startpage{
+  margin:200px 0px;
+  height:100vh
+}
+body{
+  background-color: #eff4ae;
+  
+}
+.container{
+  border:1px solid;
+  padding: 30px;
+  width:30%;
+  border-radius: 8%;
+  background-color: #ffffff;
+}
+button{
+  margin-left:40%;
+  margin-bottom: 2%;
+  margin-top: -1%;
+ 
+}
+h2{
+  text-align: center;
+  padding:10px 10px 
+}
+form{
+  padding:10px 1px;
+}
+.librarydue{
+  /* text-align: center;
+  display: flex;
+  padding:10px 10px;
+  flex-direction: column;
+  border-color: #000;
+  border-radius: 0px;
+  padding:0px 0px;
+   */
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-color: #000;
+  border-radius: 20px;
+ border: 1px solid; 
+ padding: 10px 10px;
+ padding-bottom: 0px;
+ margin-bottom: 10px;
+}
+.subject-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-color: #000;
+  border-radius: 20px;
+ border: 1px solid; 
+ padding: 10px 10px
+}
+.subjectList{
+ color: #000;
+align-content: center;
+ padding-top: 10px;
+ padding-left: 10px;
+ display: flex;
+ border: 1px solid;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+.btn {
+  background: rgb(95, 203, 234);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 100px;
+  /* position: relative;
+  left: 35%;
+  transform: translate(-50%, 0); */
+  outline: none;
+  cursor: pointer;
+  transition: ease .2s;
+
+}
+.signature{
+  background: rgb(95, 203, 234);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 95px;
+
+  /* width: auto; */
+  /* position: relative;
+  left: 35%;
+  transform: translate(-50%, 0); */
+  outline: none;
+  cursor: pointer;
+  transition: ease .2s;
+  padding:8px 8px 8px 8px;
+  margin-left:37%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+input:hover {
+  border-bottom: 1px solid #3F5EFB;
+}
+
+input:focus {
+  border-bottom: 1px solid #3F5EFB;
+}
