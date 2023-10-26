@@ -1,20 +1,24 @@
 .Loginpage{
   margin: 100px 0px;
-  height:100vh
+  height:100%
 }
 .startpage{
   margin:200px 0px;
-  height:100vh
+  height:100%
 }
 body{
   background-color: #eff4ae;
   
 }
+label{
+  padding-top: 10px;
+}
 .container{
   border:1px solid;
   padding: 30px;
   width:30%;
-  border-radius: 8%;
+  height:100%;
+  border-radius: 5%;
   background-color: #ffffff;
 }
 button{
@@ -39,7 +43,6 @@ form{
   border-radius: 0px;
   padding:0px 0px;
    */
-   text-align: center;
   display: flex;
   flex-direction: column;
   border-color: #000;
@@ -50,7 +53,6 @@ form{
  margin-bottom: 10px;
 }
 .subject-info {
-  text-align: center;
   display: flex;
   flex-direction: column;
   border-color: #000;

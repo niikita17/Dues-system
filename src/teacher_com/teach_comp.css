@@ -1,0 +1,45 @@
+.conatiner{
+    margin: 200px 0px;
+    
+}
+.contain{
+    margin:200px 500px;
+    height:100%;
+   background-color: rgb(255, 255, 255);
+}
+.card{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin:20px 500px;
+}
+.page{
+    height:100%;
+}
+.student-info {
+    text-align: center;
+    border-color: #000;
+    border-radius: 20px;
+   border: 1px solid; 
+   padding: 10px 10px
+  }
+  label{
+ padding-top: 15px;
+  }
+ .btn{
+margin-left: 50%; }
+  .studentname{
+   color: #000;
+   display: flex;
+
+   border: 1px solid;
+   padding-top: 10px;
+   padding-left: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+  }
+  .btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
