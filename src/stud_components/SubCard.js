@@ -1,12 +1,16 @@
 import React from 'react'
 import './Login.css'
 export const SubCard = (props) => {
+  // const navigate=useNavigate();
+  //    function navigatestart(){
+  //     navigate('/start')
+  //    }
     let value=props.library_status;
     const library=(prop)=>{
-        return prop.value?"unclear":"unclear"
+        return prop.value?"clear":"clear"
     }
   return (
-    <div className='Loginpage'>
+    <div className='cardpage'>
     <div className="container">  
         <h2> Submission Card</h2>  
         <form>  
