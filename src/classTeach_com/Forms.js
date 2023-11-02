@@ -1,13 +1,17 @@
 import React from 'react'
-import './teach_comp.css'
-import { useNavigate } from 'react-router-dom';
 import logo from '../download.png'
+import { useNavigate } from 'react-router-dom';
+import '../teacher_com/teach_comp.css'
 
-export const Divsionwise = () => {
+
+export const Forms = () => {
   const navigate=useNavigate();
-     function navigatesubject(){
-      navigate('/subjectwise')
+     function toallnodues(){
+    navigate('/allnoduesform')
      }
+     function toallsubcard(){
+      navigate('/allsubmissioncard')
+       }
   return (
     <div>
       <nav class="navbar ">
@@ -24,15 +28,15 @@ export const Divsionwise = () => {
 <div className='divisions'>
 <div class="card text-center mb-3 w-50">
   <div class="card-body">
-    <h5 class="card-title">Division A</h5>
+    <h5 class="card-title">All Nodues Forms</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <button class="btn btn-primary" onClick={navigatesubject}>Go somewhere</button>
+    <button class="btn btn-primary" onClick={toallnodues}>Go somewhere</button>
   </div>
 </div><div class="card text-center mb-3 w-50">
   <div class="card-body">
-    <h5 class="card-title">Division B</h5>
+    <h5 class="card-title">All Submision Card</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <button  class="btn btn-primary" onClick={navigatesubject}>Go somewhere</button>
+    <button  class="btn btn-primary" onClick={toallsubcard}>Go somewhere</button>
   </div>
 </div>
 </div>

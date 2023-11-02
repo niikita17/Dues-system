@@ -1,16 +1,20 @@
-import React from "react";
-import "./teach_comp.css";
+import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import '../teacher_com/teach_comp.css'
 import logo from '../download.png'
 
-export const Request = (props) => {
-  // const navigate=useNavigate();
-  //    function navigatestart(){
-  //     navigate('/start')
-  //    }
+export const Allnoduesforms = (props) => {
+let style={
+  color:'black'
+}
+  const navigate=useNavigate();
+     function navigateform(){
+      navigate('/submissioncard')
+     }
   return (
+   
     <div>
-    <nav class="navbar ">
+    <nav class="navbar  ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src={logo} alt="" width="50" height="34"/>
@@ -39,5 +43,5 @@ export const Request = (props) => {
         )
          })}</ul>
    </div></div></div>
-  );
-};
+     )
+}

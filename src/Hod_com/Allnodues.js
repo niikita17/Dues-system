@@ -1,16 +1,16 @@
-import React from "react";
-import "./teach_comp.css";
-import { useNavigate } from 'react-router-dom';
+import React from 'react'
 import logo from '../download.png'
+import { useNavigate } from 'react-router-dom';
+import '../teacher_com/teach_comp.css'
+export const Allnodues = (props) => {
 
-export const Request = (props) => {
-  // const navigate=useNavigate();
-  //    function navigatestart(){
-  //     navigate('/start')
-  //    }
+  const navigate=useNavigate();
+  function tostudnodues(){
+ navigate('/noduesrequest')
+  }
   return (
     <div>
-    <nav class="navbar ">
+    <nav class="navbar  ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src={logo} alt="" width="50" height="34"/>
@@ -34,10 +34,10 @@ export const Request = (props) => {
 
           <li class="list-group-item"> 
           <label className="name">{student.name}</label>
-          <button className="btn b" >approved</button>
+          <button className="btn b" onClick={tostudnodues} >approved</button>
           </li>
         )
          })}</ul>
    </div></div></div>
-  );
-};
+  )
+}
